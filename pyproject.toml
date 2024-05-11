@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chat-bot-gemini"
+version = "0.1.0"
+description = "Criando um chatbot usando API do Gemini + Python"
+authors = ["Mauricio Benjamin <mauriciobenjamin700@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-generativeai = "^0.5.2"
+ipykernel = "^6.29.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
